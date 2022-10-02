@@ -13,6 +13,7 @@ class NewsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_news)
 
+        //setup nav controller
         bottomNavigationView.setupWithNavController(newNavHostFragment.findNavController())
     }
 
