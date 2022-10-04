@@ -1,4 +1,4 @@
-package com.androiddevs.mvvmnewsapp
+package com.androiddevs.mvvmnewsapp.data
 
 data class Source(
     val id: String? = null,
